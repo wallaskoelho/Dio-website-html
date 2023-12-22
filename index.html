@@ -14,7 +14,7 @@
 
 <h2><code>&lt;html&gt;</code> A Estrutura Base</h2>
 
-<p>A tag <code>&lt;html&gt;</code> é a espinha dorsal de qualquer página web. Envolvendo todo o conteúdo da página, ela sinaliza ao navegador que o documento está escrito em HTML, a linguagem padrão para a construção de páginas web.</p>
+<p>A tag <strong><code>&lt;html&gt;</code></strong> é a espinha dorsal de qualquer página web. Envolvendo todo o conteúdo da página, ela sinaliza ao navegador que o documento está escrito em HTML, a linguagem padrão para a construção de páginas web.</p>
 
 <p>Exemplo de código:</p>
 
@@ -62,7 +62,7 @@
 
 <h2><code>&lt;head&gt;</code>: Metadados e Configurações</h2>
 
-<p> Dentro do <code>&lt;html&gt;</code>, encontramos a tag <code>&lt;head&gt;</code>, onde residem informações cruciais sobre o documento. Aqui, definimos o título da página, links para estilos (CSS), scripts e outros metadados essenciais para a renderização e interação do usuário.</p>
+<p> Dentro do <strong><code>&lt;html&gt;</code></strong>, encontramos a tag <strong><code>&lt;head&gt;</code></strong>, onde residem informações cruciais sobre o documento. Aqui, definimos o título da página, links para estilos (CSS), scripts e outros metadados essenciais para a renderização e interação do usuário.</p>
 
 <p>Exemplo de código:</p>
 
@@ -99,7 +99,9 @@
 
 <h2><code>&lt;body&gt;</code>: O Corpo da Página</h2>
 
-<p> A tag <code>&lt;body&gt;</code> abraça todo o conteúdo visível da página. Textos, imagens, links e outros elementos visuais residem aqui, criando a experiência única que os visitantes verão e interagirão.</p>
+<p> A tag <strong><code>&lt;body&gt;</code></strong> abraça todo o conteúdo visível da página. Textos, imagens, links e outros elementos visuais residem aqui, criando a experiência única que os visitantes verão e interagirão.</p>
+
+<p>Exemplo de código:</p>
 
 <pre>
   <code>
@@ -124,6 +126,143 @@
 
    &lt;h2&gt;Bem-vindo à Minha Página&lt;/h2&gt;
 
+   &lt;!-- Outros elementos --&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Minha Página</title>
+      </head>
+    <body>
+      <h1>Olá, mundo!</h1>
+      <h2>Bem-vindo à Minha Página</h2>
+   
+      <!-- Outros elementos -->
+
+      </body>
+    </html>
+  </code>
+</pre>
+
+
+<h2>Títulos e Subtítulos <pre><code>&lt;h1&gt;, &lt;h2&gt;,---, &lt;h6&gt;</code></pre></h2>
+
+<p>Essas tags são utilizadas para definir a hierarquia de títulos e subtítulos na página. O <strong><code>&lt;h1&gt;</code></strong> é o título mais importante, enquanto <strong><code>&lt;h6&gt;</code></strong> é o menos importante.</p>
+
+
+<p>Exemplo de código:</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+   &lt;!-- Outros metadados --&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Titulo h1&lt;/h1&gt;
+
+   &lt;h2&gt;titulo h2&lt;/h2&gt;
+
+   &lt;h3&gt;Titulo h3&lt;/h3&gt;
+
+   &lt;h4&gt;titulo h4&lt;/h4&gt;
+
+   &lt;h5&gt;Titulo h5&lt;/h5&gt;
+
+   &lt;h6&gt;titulo h6&lt;/h6&gt;
+
+   &lt;!-- Outros elementos --&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Minha Página</title>
+      </head>
+    <body>
+      <h1>Titulo h1</h1>
+
+      <h2>titulo h2</h2>
+   
+      <h3>Titulo h3</h3>
+   
+      <h4>titulo h4</h4>
+   
+      <h5>Titulo h5</h5>
+   
+      <h6>titulo h6</h6>
+
+      <!-- Outros elementos -->
+
+      </body>
+    </html>
+  </code>
+</pre>
+
+
+<h2><code>&lt;p&gt;</code>: Parágrafos</h2>
+
+<p>A tag <strong><code>&lt;p&gt;</code></strong> é usada para criar parágrafos de texto. Ela ajuda na organização e formatação do conteúdo textual.</p>
+
+
+<p>Exemplo de código:</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+   &lt;!-- Outros metadados --&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Titulo h1&lt;/h1&gt;
+
+   &lt;h2&gt;titulo h2&lt;/h2&gt;
+
    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
 
    &lt;!-- Outros elementos --&gt;
@@ -141,70 +280,360 @@
   <code>
     <!DOCTYPE html>
     <html>
-    <head>
-      <title>Minha Página</title>
-    </head>
+      <head>
+        <title>Minha Página</title>
+      </head>
     <body>
       <h1>Olá, mundo!</h1>
-      <h2>Bem-vindo à Minha Página</h2>
 
-      <p>Este é um parágrafo de exemplo.</p>
+      <h2>Bem-vindo à Minha Página</h2>
    
+      <p>Este é um parágrafo de exemplo.</p>
+
       <!-- Outros elementos -->
 
-    </body>
+      </body>
     </html>
   </code>
 </pre>
 
 
-<h2><pre><code>&lt;h1&gt;, &lt;h2&gt;,---, &lt;h6&gt;</code></pre> Títulos e Subtítulos</h2>
 
-<p>Essas tags são utilizadas para definir a hierarquia de títulos e subtítulos na página. O &lt;h1&gt; é o título mais importante, enquanto &lt;h6&gt; é o menos importante.</p>
 
-```html
-<h1>Título Principal</h1>
-<h2>Subtítulo</h2>
-<!-- Outros títulos e subtítulos -->
-```
+<h2><code>&lt;a&gt;</code>: Links</h2>
 
-**5. `<p>`: Parágrafos**
+<p>A tag <strong><code>&lt;a&gt;</code></strong> cria links para outras páginas ou recursos na web. Definimos o destino do link usando o atributo `href`.</p>
 
-A tag `<p>` é usada para criar parágrafos de texto. Ela ajuda na organização e formatação do conteúdo textual.
+<p>Exemplo de código:</p>
 
-```html
-<p>Este é um parágrafo de exemplo.</p>
-```
+<pre>
+  <code>
 
-**6. `<a>`: Links**
+&lt;!DOCTYPE html&gt;
 
-A tag `<a>` cria links para outras páginas ou recursos na web. Definimos o destino do link usando o atributo `href`.
+ &lt;html&gt;
 
-```html
-<a href="https://www.exemplo.com">Visite nosso site</a>
-```
+  &lt;head&gt;
 
-**7. `<img>`: Imagens**
+   &lt;title&gt;Minha Página&lt;/title&gt;
 
-Para exibir imagens, usamos a tag `<img>`. O atributo `src` define o caminho para a imagem, e o `alt` fornece uma descrição para acessibilidade.
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
 
-```html
-<img src="imagem.jpg" alt="Descrição da imagem">
-```
+   &lt;!-- Outros metadados --&gt;
 
-**8. `<ul>` e `<li>`: Listas Não Ordenadas**
+  &lt;/head&gt;
 
-As tags `<ul>` e `<li>` são utilizadas para criar listas não ordenadas. `<ul>` envolve toda a lista, enquanto `<li>` define cada item da lista.
+  &lt;body&gt;
 
-```html
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-</ul>
-```
+   &lt;h1&gt;Titulo h1&lt;/h1&gt;
 
-Essas são apenas algumas das muitas tags HTML disponíveis. Compreender como essas tags interagem é crucial para construir páginas web dinâmicas e envolventes. Explore, experimente e, em pouco tempo, você estará criando conteúdo web que cativa e informa.
+   &lt;h2&gt;titulo h2&lt;/h2&gt;
 
+   &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+
+   &lt;a href="https://dio.me" target="_blank"&gt;Visite nosso site&lt;/a&gt;
+
+   &lt;!-- Outros elementos --&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Minha Página</title>
+      </head>
+    <body>
+      <h1>Olá, mundo!</h1>
+
+      <h2>Bem-vindo à Minha Página</h2>
+   
+      <p>Este é um parágrafo de exemplo.</p>
+
+      <a href="https://dio.me" target="_blank">Visite nosso site</a>
+
+      <!-- Outros elementos -->
+
+      </body>
+    </html>
+  </code>
+</pre>
+
+
+<h2><code>&lt;img&gt;</code>: Imagens</h2>
+
+
+<p>Para exibir imagens, usamos a tag <strong><code>&lt;img&gt;</code></strong> O atributo `src` define o caminho para a imagem, e o `alt` fornece uma descrição para acessibilidade.</p>
+
+<p>Exemplo de código:</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+   &lt;!-- Outros metadados --&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Titulo h1&lt;/h1&gt;
+
+   &lt;h2&gt;titulo h2&lt;/h2&gt;
+
+   &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+
+   &lt;a href="https://dio.me" target="_blank"&gt;Visite nosso site&lt;/a&gt;
+
+   &lt;!-- Outros elementos --&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Minha Página</title>
+      </head>
+    <body>
+      <h1>Olá, mundo!</h1>
+
+      <h2>Bem-vindo à Minha Página</h2>
+   
+      <p>Este é um parágrafo de exemplo.</p>
+
+      <a href="https://dio.me" target="_blank">Visite nosso site</a>
+
+      <img width="250" src="https://hermes.dio.me/articles/cover/364fb700-4c6f-482b-91fe-6c66b31ae8a1.jpg" alt="Logo Da DIO.me">
+      
+      <!-- Outros elementos -->
+
+      </body>
+    </html>
+  </code>
+</pre>
+
+
+
+  <h2><code>&lt;ul&gt; e &lt;li&gt; </code>: Listas Não Ordenadas</h2>
+
+  <p>As tags <strong><code>&lt;ul&gt; e &lt;li&gt;</code></strong> são utilizadas para criar listas não ordenadas. <strong><code></code>&lt;ul&gt;</strong></code> envolve toda a lista, enquanto <strong><code>&lt;li&gt;</strong></code> define cada item da lista.</p>
+
+  <p>Exemplo de código:</p>
+
+  <pre>
+    <code>
+
+  &lt;!DOCTYPE html&gt;
+
+  &lt;html&gt;
+
+    &lt;head&gt;
+
+    &lt;title&gt;Minha Página&lt;/title&gt;
+
+    &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+    &lt;!-- Outros metadados --&gt;
+
+    &lt;/head&gt;
+
+    &lt;body&gt;
+
+    &lt;h1&gt;Titulo h1&lt;/h1&gt;
+
+    &lt;h2&gt;titulo h2&lt;/h2&gt;
+
+    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+
+    &lt;a href="https://dio.me" target="_blank"&gt;Visite nosso site&lt;/a&gt;
+    
+    &lt;ul&gt;
+      &lt;li&gt;Item 1&lt;/li&gt;
+      &lt;li&gt;Item 2&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.dio.me/" target="_blank"&gtDIO.me&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://www.google.com/" target="_blank"&gtGoogle&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;!-- Outros elementos --&gt;
+
+    &lt;/body&gt;
+
+  &lt;/html&gt;
+
+  </code>
+  </pre>
+
+  <p>Resultado:</p>
+
+  <pre>
+    <code>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Minha Página</title>
+        </head>
+      <body>
+        <h1>Olá, mundo!</h1>
+
+        <h2>Bem-vindo à Minha Página</h2>
+    
+        <p>Este é um parágrafo de exemplo.</p>
+
+        <a href="https://dio.me" target="_blank">Visite nosso site</a>
+
+        <img width="250" src="https://hermes.dio.me/articles/cover/364fb700-4c6f-482b-91fe-6c66b31ae8a1.jpg" alt="Logo Da DIO.me">
+        
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li><a href="https://www.dio.me/" target="_blank">DIO.me</a></li>
+          <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        </ul>
+
+        <!-- Outros elementos -->
+
+        </body>
+      </html>
+    </code>
+  </pre>
+
+
+  <h2><code>&lt;ol&gt; e &lt;li&gt; </code>: Listas Ordenadas</h2>
+
+    <p>Da mesma forma que as listas não ordenadas, as tags <strong><code>&lt;ol&gt; e &lt;li&gt;</code></strong> são fundamentais para estruturar informações em listas, mas agora de maneira ordenada.  <strong><code>&lt;ol&gt;</code></strong> envolve a lista, enquanto  <strong><code>&lt;li&gt;</code></strong> define cada item, indicando a ordem numérica.
+    
+  
+      <p>Exemplo de código:</p>
+
+      <pre>
+        <code>
+    
+      &lt;!DOCTYPE html&gt;
+    
+      &lt;html&gt;
+    
+        &lt;head&gt;
+    
+        &lt;title&gt;Minha Página&lt;/title&gt;
+    
+        &lt;link rel="stylesheet" href="estilos.css"&gt;
+    
+        &lt;!-- Outros metadados --&gt;
+    
+        &lt;/head&gt;
+    
+        &lt;body&gt;
+    
+        &lt;h1&gt;Titulo h1&lt;/h1&gt;
+    
+        &lt;h2&gt;titulo h2&lt;/h2&gt;
+    
+        &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+    
+        &lt;a href="https://dio.me" target="_blank"&gt;Visite nosso site&lt;/a&gt;
+        
+        &lt;ul&gt;
+          &lt;li&gt;Item 1&lt;/li&gt;
+          &lt;li&gt;Item 2&lt;/li&gt;
+          &lt;li&gt;&lt;a href="https://www.dio.me/" target="_blank"&gtDIO.me&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="https://www.google.com/" target="_blank"&gtGoogle&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;ol&gt;
+          &lt;li&gt;Item 1&lt;/li&gt;
+          &lt;li&gt;Item 2&lt;/li&gt;
+          &lt;li&gt;&lt;a href="https://www.dio.me/" target="_blank"&gtDIO.me&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="https://www.google.com/" target="_blank"&gtGoogle&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+  
+    
+        &lt;!-- Outros elementos --&gt;
+    
+        &lt;/body&gt;
+    
+      &lt;/html&gt;
+    
+      </code>
+      </pre>
+    
+      <p>Resultado:</p>
+    
+      <pre>
+        <code>
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <title>Minha Página</title>
+            </head>
+          <body>
+            <h1>Olá, mundo!</h1>
+    
+            <h2>Bem-vindo à Minha Página</h2>
+        
+            <p>Este é um parágrafo de exemplo.</p>
+    
+            <a href="https://dio.me" target="_blank">Visite nosso site</a>
+    
+            <img width="250" src="https://hermes.dio.me/articles/cover/364fb700-4c6f-482b-91fe-6c66b31ae8a1.jpg" alt="Logo Da DIO.me">
+            
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li><a href="https://www.dio.me/" target="_blank">DIO.me</a></li>
+              <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            </ul>
+
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li><a href="https://www.dio.me/" target="_blank">DIO.me</a></li>
+              <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            </ol>
+    
+            <!-- Outros elementos -->
+    
+            </body>
+          </html>
+        </code>
+      </pre>
+
+
+   
+  
+    
+    <p>Ao utilizar <strong>&lt;ol&gt;</strong>, você proporciona uma organização sequencial, útil para instruções passo a passo, rankings, ou qualquer conteúdo que exija uma ordem específica.</p>
+    
+    
+
+
+  <p>Essas são apenas algumas das muitas tags HTML disponíveis. Compreender como essas tags interagem é crucial para construir páginas web dinâmicas e envolventes. Explore, experimente e, em pouco tempo, você estará criando conteúdo web que cativa e informa.</p>
 
 </body>
 </html>
+
