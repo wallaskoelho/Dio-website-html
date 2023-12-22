@@ -1,44 +1,166 @@
-**Título: Desvendando as Tags HTML: Elementos Essenciais para Construir Páginas Web**
-
-Se aventurar no universo da criação de páginas web começa com o entendimento das tags HTML, os elementos fundamentais que estruturam e organizam o conteúdo em um documento. Vamos explorar mais detalhadamente algumas das tags HTML mais essenciais e entender como cada uma delas contribui para moldar a experiência de navegação.
-
-**1. `<html>`: A Estrutura Base**
-
-A tag `<html>` é a espinha dorsal de qualquer página web. Envolvendo todo o conteúdo da página, ela sinaliza ao navegador que o documento está escrito em HTML, a linguagem padrão para a construção de páginas web.
-
-```html
-<html>
-  <!-- Conteúdo da página -->
-</html>
-```
-
-**2. `<head>`: Metadados e Configurações**
-
-Dentro do `<html>`, encontramos a tag `<head>`, onde residem informações cruciais sobre o documento. Aqui, definimos o título da página, links para estilos (CSS), scripts e outros metadados essenciais para a renderização e interação do usuário.
-
-```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Minha Página</title>
-  <link rel="stylesheet" href="estilos.css">
-  <!-- Outros metadados -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website HTML</title>
 </head>
-```
-
-**3. `<body>`: O Corpo da Página**
-
-A tag `<body>` abraça todo o conteúdo visível da página. Textos, imagens, links e outros elementos visuais residem aqui, criando a experiência única que os visitantes verão e interagirão.
-
-```html
 <body>
-  <h1>Bem-vindo à Minha Página</h1>
-  <p>Este é um parágrafo de exemplo.</p>
-  <!-- Outros elementos -->
-</body>
-```
+  
 
-**4. `<h1>`, `<h2>`, ..., `<h6>`: Títulos e Subtítulos**
+<h1>Desvendando as Tags HTML: Elementos Essenciais para Construir Páginas Web</h1>
 
-Essas tags são utilizadas para definir a hierarquia de títulos e subtítulos na página. O `<h1>` é o título mais importante, enquanto `<h6>` é o menos importante.
+<p> aventurar no universo da criação de páginas web começa com o entendimento das tags HTML, os elementos fundamentais que estruturam e organizam o conteúdo em um documento. Vamos explorar mais detalhadamente algumas das tags HTML mais essenciais e entender como cada uma delas contribui para moldar a experiência de navegação.</p>
+
+<h2><code>&lt;html&gt;</code> A Estrutura Base</h2>
+
+<p>A tag <code>&lt;html&gt;</code> é a espinha dorsal de qualquer página web. Envolvendo todo o conteúdo da página, ela sinaliza ao navegador que o documento está escrito em HTML, a linguagem padrão para a construção de páginas web.</p>
+
+<p>Exemplo de código:</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Minha Página</title>
+    </head>
+    <body>
+      <h1>Olá, mundo!</h1>
+    </body>
+    </html>
+  </code>
+</pre>
+
+
+
+<h2><code>&lt;head&gt;</code>: Metadados e Configurações</h2>
+
+<p> Dentro do <code>&lt;html&gt;</code>, encontramos a tag <code>&lt;head&gt;</code>, onde residem informações cruciais sobre o documento. Aqui, definimos o título da página, links para estilos (CSS), scripts e outros metadados essenciais para a renderização e interação do usuário.</p>
+
+<p>Exemplo de código:</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+   &lt;!-- Outros metadados --&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+
+
+
+<h2><code>&lt;body&gt;</code>: O Corpo da Página</h2>
+
+<p> A tag <code>&lt;body&gt;</code> abraça todo o conteúdo visível da página. Textos, imagens, links e outros elementos visuais residem aqui, criando a experiência única que os visitantes verão e interagirão.</p>
+
+<pre>
+  <code>
+
+&lt;!DOCTYPE html&gt;
+
+ &lt;html&gt;
+
+  &lt;head&gt;
+
+   &lt;title&gt;Minha Página&lt;/title&gt;
+
+   &lt;link rel="stylesheet" href="estilos.css"&gt;
+
+   &lt;!-- Outros metadados --&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+   &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+
+   &lt;h2&gt;Bem-vindo à Minha Página&lt;/h2&gt;
+
+   &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+
+   &lt;!-- Outros elementos --&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;
+
+</code>
+</pre>
+
+<p>Resultado:</p>
+
+<pre>
+  <code>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Minha Página</title>
+    </head>
+    <body>
+      <h1>Olá, mundo!</h1>
+      <h2>Bem-vindo à Minha Página</h2>
+
+      <p>Este é um parágrafo de exemplo.</p>
+   
+      <!-- Outros elementos -->
+
+    </body>
+    </html>
+  </code>
+</pre>
+
+
+<h2><pre><code>&lt;h1&gt;, &lt;h2&gt;,---, &lt;h6&gt;</code></pre> Títulos e Subtítulos</h2>
+
+<p>Essas tags são utilizadas para definir a hierarquia de títulos e subtítulos na página. O &lt;h1&gt; é o título mais importante, enquanto &lt;h6&gt; é o menos importante.</p>
 
 ```html
 <h1>Título Principal</h1>
@@ -82,3 +204,7 @@ As tags `<ul>` e `<li>` são utilizadas para criar listas não ordenadas. `<ul>`
 ```
 
 Essas são apenas algumas das muitas tags HTML disponíveis. Compreender como essas tags interagem é crucial para construir páginas web dinâmicas e envolventes. Explore, experimente e, em pouco tempo, você estará criando conteúdo web que cativa e informa.
+
+
+</body>
+</html>
